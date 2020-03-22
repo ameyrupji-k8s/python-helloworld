@@ -21,7 +21,7 @@ A simple python hello world script. This example creates a Python script that pr
 
 Create a `src/helloworld.py` with the following code:
 
-```bash 
+```python 
 #!/usr/local/bin/python3 
 
 import datetime
@@ -34,7 +34,7 @@ print("{now} Hello World! from Python.".format(now=now))
 
 Open Terminal run the following command:
 
-```python
+```bash
 cd src
 python helloworld.py
 ```
