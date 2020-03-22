@@ -21,7 +21,7 @@ A simple python hello world script. This example creates a Python script that pr
 
 Create a `src/helloworld.py` with the following code:
 
-```
+```bash 
 #!/usr/local/bin/python3 
 
 import datetime
@@ -34,7 +34,7 @@ print("{now} Hello World! from Python.".format(now=now))
 
 Open Terminal run the following command:
 
-```
+```python
 cd src
 python helloworld.py
 ```
@@ -46,5 +46,5 @@ python helloworld.py
 
 - https://medium.com/@pandit.summit/kubernetes-cron-job-with-python-image-in-minikube-windows-10-ac33851d573d
 
-| [Next ▸](https://github.com/ameyrupji-k8s/docker-spring-boot-helloworld) |
+| [Next ▸](https://github.com/ameyrupji-k8s/docker-python-helloworld) |
 |-----|
